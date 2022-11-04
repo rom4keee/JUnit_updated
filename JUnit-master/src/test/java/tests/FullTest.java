@@ -44,8 +44,6 @@ class FullTest {
     @Test
     void FullTest() {
 
-        // pages.HomePage.clickAcceptCookieButton();
-
         pages.HomePage.searchInput("Camilla");
         pages.HomePage.clickSearchButton();
 
